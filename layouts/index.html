@@ -21,8 +21,8 @@
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
 
                     <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                        {{- with $thumb.Permalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.Permalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.Permalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                         {{ $p1image := resources.Get .Site.Params.P1.Image }}
                         {{ with $p1image }}
                         {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P1" loading="lazy" />
+                        <img imgh src="{{ .Permalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P1" loading="lazy" />
                         {{ end }}
                         {{ end }}
                     </div>
@@ -109,7 +109,7 @@
                     {{ $p2image := resources.Get .Site.Params.P2.Image }}
                     {{ with $p2image }}
                     {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                    <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
+                    <img imgh src="{{ .Permalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
                     {{ end }}
                     {{ end }}
 
@@ -127,10 +127,10 @@
                 <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
                     {{ if .image }}
                     {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.Permalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
                     {{ else }}
                     {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.Permalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
                     {{ end }}
                 </div>
                 {{ end }}
@@ -180,7 +180,7 @@
                             <a href="{{.Permalink}}">
                                 {{ with .Params.featured_image }}
                                 {{ with resources.Get . }}
-                                {{ $postimage := (.Resize "500x webp q90").RelPermalink }}
+                                {{ $postimage := (.Resize "500x webp q90").Permalink }}
                                 <img src="{{ $postimage }}" class="object-fill overflow-hidden rounded-t-lg" width="100%" height="" loading="lazy" alt="{{ .Title }}" />
 
                                 {{ end }}
@@ -207,7 +207,7 @@
                                         <span class="sr-only">{{ .Params.author }}</span>
                                         {{ with .Params.authorimage }}
                                         {{ with resources.Get . }}
-                                        {{ $authorimage := (.Resize "400x webp").RelPermalink }}
+                                        {{ $authorimage := (.Resize "400x webp").Permalink }}
                                         <img class="w-10 h-10 rounded-full" src="{{ $authorimage }}" alt="">
                                         {{ end }}
                                         {{ end }}

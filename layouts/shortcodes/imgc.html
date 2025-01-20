@@ -104,7 +104,7 @@
 			{{- with $respSizes -}}
 				{{- range $i, $e := . -}}
 					{{- if ge $src.Width . -}}
-						{{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+						{{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).Permalink }} {{ . }}w
 					{{- end -}}
 				{{- end -}}
 			{{- end -}}" sizes="{{ $dataSzes }}" />
@@ -112,11 +112,11 @@
 			{{- with $respSizes -}}
 				{{- range $i, $e := . -}}
 					{{- if ge $src.Width . -}}
-						{{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+						{{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).Permalink }} {{ . }}w
 					{{- end -}}
 				{{- end -}}
 			{{- end -}}" \ sizes="{{ $dataSzes }}" />
-            <img class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}"
+            <img class="{{ $imgClass }}" src="{{ $actualImg.Permalink }}" width="{{ $src.Width }}"
                 height="{{ $src.Height }}" alt="{{ $alt }}" loading="lazy" />
         </picture>
     </div>
