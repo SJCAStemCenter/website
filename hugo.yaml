@@ -1,11 +1,13 @@
-baseURL: 'https://sjca-makerspace.github.io/website'
+baseURL: 'https://sjca-makerspace.github.io'
+assetDir: "assets"
+relativeURLs: true
 title: SJCA STEM Center
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
+canonifyURLs: false
 pagination:
   pagerSize: 6
 darkmode_js:
@@ -85,44 +87,44 @@ menu:
   main:
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 10
     - identifier: news
       name: News
-      url: /categories/news/
+      url: categories/news/
       weight: 20
     - identifier: signup
       name: Sign Up
-      url: /signup/
+      url: signup/
       weight: 30
     - identifier: calendar
       name: Calendar
-      url: /calendar/
+      url: calendar/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
   footer:
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 10
     - identifier: news
       name: News
-      url: /categories/news/
+      url: categories/news/
       weight: 20
     - identifier: signup
       name: Sign Up
-      url: /signup/
+      url: signup/
       weight: 30
     - identifier: calendar
       name: Calendar
-      url: /calendar/
+      url: calendar/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
 
 markup:
