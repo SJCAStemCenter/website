@@ -50,7 +50,7 @@ markup:
 
 params:
   author: SJCA STEM Center
-  authorimage: ../assets/images/global/author.webp
+  authorimage: /images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Forging a New Generation of Makers"
   description: "We are a club focused on bringing out students aptitude towards creation and design"
@@ -59,13 +59,13 @@ params:
 
   p1:
     heading: "Our Mission"
-    image: "images/pages/our-mission.png"
+    image: "/images/pages/our-mission.png"
     content:
       - text: "By offering access to many different and exciting design tools to students, we hope to prepare students with practical problem-solving and design skills."
       - text: "The ultimate goal is to encourage exploration into a plethora of different skills and topics including: 3D printing, 3D modeling, electronics, programming, web design, and more!"
   p2:
     heading: "Following in the tradition of St. Joseph the Carpenter"
-    image: "images/pages/hacktoberfest.jpg"
+    image: "/images/pages/hacktoberfest.jpg"
     content:
       - text: "As a part of a Catholic school, we follow in the footsteps of St. Joseph, Jesus' earthly father, who was a carpenter and builder himself!"
 
@@ -87,44 +87,44 @@ menu:
   main:
     - identifier: about
       name: About
-      url: about/
+      pageRef: /about
       weight: 10
     - identifier: news
       name: News
-      url: categories/news/
+      pageRef: /categories/news
       weight: 20
     - identifier: signup
       name: Sign Up
-      url: signup/
+      pageRef: /signup
       weight: 30
     - identifier: calendar
       name: Calendar
-      url: calendar/
+      pageRef: /calendar
       weight: 40
     - identifier: contact
       name: Contact
-      url: contact/
+      url: /contact
       weight: 50
   footer:
     - identifier: about
       name: About
-      url: about/
+      pageRef: /about
       weight: 10
     - identifier: news
       name: News
-      url: categories/news/
+      pageRef: /categories/news
       weight: 20
     - identifier: signup
       name: Sign Up
-      url: signup/
+      pageRef: /signup
       weight: 30
     - identifier: calendar
       name: Calendar
-      url: calendar/
+      pageRef: /calendar
       weight: 40
     - identifier: contact
       name: Contact
-      url: contact/
+      pageRef: /contact
       weight: 50
 
 markup:
