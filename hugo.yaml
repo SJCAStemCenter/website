@@ -1,4 +1,4 @@
-baseURL: 'https://sjca-makerspace.github.io/website/'
+baseURL: 'https://sjcastemcenter.github.io/website/'
 assetDir: "assets"
 relativeURLs: true
 title: SJCA STEM Center
