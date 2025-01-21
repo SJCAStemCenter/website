@@ -56,10 +56,10 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          hugo \
+          timeout 10s hugo server \
+	    --disableFastRender
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
