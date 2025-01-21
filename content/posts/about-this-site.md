@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2025-01-21T09:23:12-06:00
-draft: true
+draft: false
 language: en
 featured_image: images/featured/featured-img-placeholder.png
 summary: Some info about how this site is setup.
@@ -13,10 +13,13 @@ tags: News
 ---
 
 ## Hugo
+This site is built using [Hugo](https://gohugo.io/) which is a static site generator. Static sites don't do any server-side processing, and just serve raw HTML, CSS and client-side Javascript.
 
 ## Theme
+The theme is [Tailbliss](https://tailbliss.netlify.app/) which is a really cool custom theme for Hugo!
 
 ## Github Pages
+The site is deployed via GitHub pages at the default pages domain: [https://sjcastemcenter.github.io/website](https://sjcastemcenter.github.io/website). GitHub pages allows you to serve any public repo as a static site via a site generator (like Hugo) for free! The repo can be found at: [https://github.com/SJCAStemCenter/website](https://github.com/SJCAStemCenter/website).
 
 ## Todos
 - [ ] Set the site up on a more professional domain, like: stemcenter.sjcawi.org
