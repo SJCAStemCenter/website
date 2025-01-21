@@ -1,6 +1,6 @@
 baseURL: 'https://sjcastemcenter.github.io/website/'
 assetDir: "assets"
-relativeURLs: true
+relativeURLs: false
 title: SJCA STEM Center
 languageCode: en-us
 DefaultContentLanguage: en
