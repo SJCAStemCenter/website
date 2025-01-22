@@ -7,8 +7,8 @@ description: SJCA Stem Center Contact Info
 excludeFromPagination: true
 ---
 
-# Makerspace Guild Leadership Team
+# Staff Advisors
 This section is under construction.
 
-# Contact Info
+# Contact
 Please reach out to Emmet Katzer at [ekatzer@sjcawi.org](mailto:ekatzer@sjcawi.org) if you have any questions.
