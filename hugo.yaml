@@ -1,4 +1,4 @@
-baseURL: 'https://sjcastemcenter.github.io/website/'
+baseURL: 'https://stemcenter.sjcawi.org/'
 assetDir: "assets"
 relativeURLs: true
 title: SJCA STEM Center
