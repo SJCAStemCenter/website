@@ -1,6 +1,6 @@
 ---
-title: "About This Site"
-date: 2025-01-21T09:23:12-06:00
+title: "Signups Available"
+date: 2025-01-27T14:57:12-06:00
 draft: false
 language: en
 featured_image: images/posts/about-the-website.png
