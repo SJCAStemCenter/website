@@ -73,7 +73,7 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/sjca-makerspace'
+      url: 'https://github.com/SJCAStemCenter/'
     facebook:
       enabled: true
       url: 'https://www.facebook.com/SJCAKenosha/'
