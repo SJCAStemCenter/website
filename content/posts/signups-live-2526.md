@@ -3,13 +3,15 @@ title: "Signups Available"
 date: 2025-10-21T11:54:13-06:00
 draft: false
 language: en
-featured_image: images/posts/signup.png
+featured_image: images/posts/signup-new.png
 summary: Signups are now live for 2025-2026!
 description: Signups are now live for 2025-2026!
 author: SJCA STEM Center
 authorimage: images/global/sjca-stem-center-logo.webp
 categories: News
-tags: News
+tags:
+  - News
+  - 2025-2026
 ---
 
 Signups are now available for the 2025-2026 school year! Signup using the following form:

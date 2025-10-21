@@ -1,5 +1,5 @@
 ---
-title: "Signups Available"
+title: "Signups Available (Old)"
 date: 2025-01-27T14:57:12-06:00
 draft: false
 language: en
@@ -9,7 +9,9 @@ description: Signups are now live for Spring 2025!
 author: SJCA STEM Center
 authorimage: images/global/sjca-stem-center-logo.webp
 categories: News
-tags: News
+tags:
+  - News
+  - 2024-2025
 ---
 
 Signups are now available for Spring 2025! Signup using the following form:

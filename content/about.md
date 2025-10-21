@@ -42,7 +42,7 @@ excludeFromPagination: true
           <div class="my-4 p-4 rounded-2xl bg-gray-200 dark:bg-gray-700">
 		    <h1>Dues</h1>
             <div class="my-4 p-4 mr-3 ml-3 rounded-2xl bg-gray-300 dark:bg-gray-600">
-			<p>There is a membership fee of $10 per semester to ensure we have money to cover costs of upkeep, materials and equipment.</p>
+			<p>There is a membership fee of $20 per school year to ensure we have money to cover costs of upkeep, materials and equipment.</p>
 			</div>
           </div>
   </div>
