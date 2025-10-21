@@ -4,8 +4,8 @@ date: 2025-01-27T14:57:12-06:00
 draft: false
 language: en
 featured_image: images/posts/signup.png
-summary: Some info about how this site is setup.
-description: Some info about how this site is setup.
+summary: Signups are now live for Spring 2025!
+description: Signups are now live for Spring 2025!
 author: SJCA STEM Center
 authorimage: images/global/sjca-stem-center-logo.webp
 categories: News
