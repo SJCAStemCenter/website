@@ -12,8 +12,8 @@ In order to ensure everyone gets access to make their prints on the 3D printer, 
 
 # Links
 The following are some helpful links for 3D printing:
-- [3D Print Upload Form](https://docs.google.com/forms/d/e/1FAIpQLSfYcmcpy-dWdEGb_Gtp4_H3Y1XOtZPwBqx0y70ZAah0qBxJHw/viewform?usp=dialog)
-- [3D Print Time Balances](https://docs.google.com/spreadsheets/d/1Tvfillvua-6-UOZvh9KL7zCfhibjAZklwTfYse1lJug/edit?gid=1280476020#gid=1280476020)
+- [3D Print Upload Form](https://docs.google.com/forms/d/e/1FAIpQLSfYcmcpy-dWdEGb_Gtp4_H3Y1XOtZPwBqx0y70ZAah0qBxJHw/viewform?usp=dialog) (You must be signed in to your Google account to see this)
+- [3D Print Time Balances](https://docs.google.com/spreadsheets/d/1Tvfillvua-6-UOZvh9KL7zCfhibjAZklwTfYse1lJug/edit?gid=1280476020#gid=1280476020) (You must be signed in to your Google account to see this)
 - [Thingiverse](https://www.thingiverse.com/)
 - [Cura Slicer Download](https://ultimaker.com/software/ultimaker-cura/)
 
