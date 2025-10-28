@@ -106,10 +106,14 @@ menu:
       name: Contact
       url: /contact
       weight: 50
+    - identifier: 3d-printing
+      name: 3D Printing
+      url: /3d-printing
+      weight: 60
     - identifier: rss
       name: RSS
       url: /index.xml
-      weight: 60
+      weight: 70
   footer:
     - identifier: about
       name: About
@@ -131,6 +135,10 @@ menu:
       name: Contact
       pageRef: /contact
       weight: 50
+    - identifier: 3d-printing
+      name: 3D Printing
+      url: /3d-printing
+      weight: 60
     - identifier: rss
       name: RSS
       url: /index.xml
