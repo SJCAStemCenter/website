@@ -1,4 +1,4 @@
-baseURL: 'https://stemcenter.sjcawi.org/'
+baseURL: "https://stemcenter.sjcawi.org/"
 assetDir: "assets"
 relativeURLs: true
 title: SJCA STEM Center
@@ -25,17 +25,17 @@ markup:
       table: true
       taskList: true
       typographer:
-        apostrophe: '&rsquo;'
+        apostrophe: "&rsquo;"
         disable: false
-        ellipsis: '&hellip;'
-        emDash: '&mdash;'
-        enDash: '&ndash;'
-        leftAngleQuote: '&laquo;'
-        leftDoubleQuote: '&ldquo;'
-        leftSingleQuote: '&lsquo;'
-        rightAngleQuote: '&raquo;'
-        rightDoubleQuote: '&rdquo;'
-        rightSingleQuote: '&rsquo;'
+        ellipsis: "&hellip;"
+        emDash: "&mdash;"
+        enDash: "&ndash;"
+        leftAngleQuote: "&laquo;"
+        leftDoubleQuote: "&ldquo;"
+        leftSingleQuote: "&lsquo;"
+        rightAngleQuote: "&raquo;"
+        rightDoubleQuote: "&rdquo;"
+        rightSingleQuote: "&rsquo;"
     parser:
       attribute:
         block: false
@@ -73,16 +73,16 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/SJCAStemCenter/'
+      url: "https://github.com/SJCAStemCenter/"
     facebook:
       enabled: true
-      url: 'https://www.facebook.com/SJCAKenosha/'
+      url: "https://www.facebook.com/SJCAKenosha/"
     instagram:
       enabled: true
-      url: 'https://www.instagram.com/sjcakenosha/'
+      url: "https://www.instagram.com/sjcakenosha/"
     twitter:
       enabled: false
-      url: 'https://x.com'
+      url: "https://x.com"
 
 menu:
   main:
@@ -106,9 +106,9 @@ menu:
       name: Contact
       url: /contact
       weight: 50
-    - identifier: 3d-printing
-      name: 3D Printing
-      url: /3d-printing
+    - identifier: Resources
+      name: Resources
+      url: https://classroom.google.com/w/ODE3NjIwMzUwMDA5/t/all
       weight: 60
     - identifier: rss
       name: RSS
@@ -135,19 +135,14 @@ menu:
       name: Contact
       pageRef: /contact
       weight: 50
-    - identifier: 3d-printing
-      name: 3D Printing
-      url: /3d-printing
+    - identifier: Resources
+      name: Resources
+      url: https://classroom.google.com/w/ODE3NjIwMzUwMDA5/t/all
       weight: 60
     - identifier: rss
       name: RSS
       url: /index.xml
-      weight: 60
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+      weight: 70
 
 taxonomies:
   category: Categories
